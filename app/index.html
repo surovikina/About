@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Сайт</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header class="main-header" style="background-image: url(img/background.png);" >
+      <div class="container">
+        <nav class="menu">
+          <ul class="top-menu">
+            <li class="category"><a class="nav-link active" href="#info" >Личная информация</a></li>
+            <li class="category"><a class="nav-link" href="#ex">Опыт</a></li>
+            <li class="category"><a class="nav-link" href="#lev">JavaScript</a></li>
+            <li class="category"><a class="nav-link" href="#self">О себе</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <span id="info"></span>
+    <section class="personal-info">
+      <div class="container">
+        <span class="icon"><img src="img/icon-1.png" alt="icon"></span>
+        <h2 class="form-header">Личная информация</h2>
+        <form class="info" action="index.html" method="post">
+          <input type="text" name="" value="" placeholder="ФИО">
+          <select class="" name="">
+            <option disabled selected>Год рождения</option>
+            <option value="">1990</option>
+            <option value="">1991</option>
+            <option value="">1992</option>
+            <option value="">1993</option>
+          </select>
+          <input type="text" name="" value="" placeholder="Место проживания">
+          <input type="text" name="" value="" placeholder="Skype">
+          <input type="text" name="" value="" placeholder="E-mail">
+        </form>
+      </div>
+    </section>
+    <span id="ex"></span>
+    <section class="experience">
+      <div class="container">
+        <span class="icon"><img src="img/icon-2.png" alt="icon"></span>
+        <h2 class="form-header">Расскажите о своём опыте</h2>
+        <div class="my-experience">
+          <div class="skills">
+            <input type="checkbox" id="1" name="" value="">
+            <label for="1">БЭМ/OOCSS</label>
+          </div>
+          <div class="skills">
+            <input type="checkbox" id="2" name="" value="" checked>
+            <label for="2">Stylus/LESS/SASS</label>
+          </div>
+          <div class="skills">
+            <input type="checkbox" id="3" name="" value="">
+            <label for="3">Работаю с SVG</label>
+          </div>
+          <div class="skills">
+            <input type="checkbox" id="4" name="" value="" checked>
+            <label for="4">Верстаю семантично</label>
+          </div>
+          <div class="skills">
+            <input type="checkbox" id="5" name="" value="">
+            <label for="5">ES2015/ES2016</label>
+          </div>
+          <div class="skills">
+            <input type="checkbox" id="6" name="" value="" checked>
+            <label for="6">Gulp/GRUNT</label>
+          </div>
+          <div class="skills">
+            <input type="checkbox" id="7" name="" value="">
+            <label for="7">Webpack</label>
+          </div>
+          <div class="skills">
+            <input type="checkbox" id="8" name="" value="">
+            <label for="8">jQuery</label>
+          </div>
+          <div class="skills">
+            <input type="checkbox" id="9" name="" value="" checked>
+            <label for="9">Ипользую Git</label>
+          </div>
+        </div>
+      </div>
+    </section>
+    <span id="lev"></span>
+    <section class="js-level">
+      <div class="container">
+        <span class="icon"><img src="img/icon-3.png" alt="icon"></span>
+        <h2 class="form-header">Уровень владения JavaScript</h2>
+        <div class="levels">
+          <div class="level">Не Владею</div>
+          <div class="level">Использую готовые<br> решения</div>
+          <div class="level">Использую готовые решения и умею и переделывать</div>
+          <div class="level">Пишу сложный JS с нуля</div>
+        </div>
+        <span class="graph"><img src="img/graf.png" alt="graph"></span>
+        <span class="round"><img src="img/Round.png" alt="round"></span>
+      </div>
+    </section>
+    <span id="self"></span>
+    <section class="about-yourself">
+      <div class="container">
+        <span class="icon"><img src="img/icon-4.png" alt="icon"></span>
+        <h2 class="form-header">Расскажите о себе</h2>
+        <p class="expectation">Напишите несколько предложений, чем привлекла наша вакансия<br> и что вы ожидаете от работы у нас.</p>
+        <textarea name="name" rows="12" cols="80" placeholder="Понравилась тем, что..."></textarea>
+      </div>
+    </section>
+    <div class="ready">
+      <button class="button" type="button" name="button">Готово</button>
+    </div>
+  </body>
+</html>
